@@ -1,0 +1,113 @@
+body{
+	margin: 0;	
+	background: white;
+	display: flex;
+	flex-direction: column;
+  font-family: 'Lato', sans-serif;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: #2575c5;
+	width: 20%;
+	height: 100%;
+	color: white;
+	padding-left: 25px;
+	padding-right: 25px;
+ 	position: fixed;
+}
+
+.profile .social{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	align-items: center;
+	margin-right: 125px;
+}
+
+.profile a{
+	text-decoration: none;
+	color: white;
+	transition: .2s;
+}
+
+.profile a:hover{
+	text-decoration: none;
+	color: white;
+	background: black;
+}
+
+.profile h4, .profile h2, .profile h3{
+	margin-bottom: 2px;
+}
+
+.profile h3 span{
+	font-style: italic;
+	font-size: 15px;
+}
+
+.skills{
+	display: flex;
+	align-content: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+	border-bottom: 15px #2575c5 dashed;
+	margin-left: 400px;
+	width: 70%;
+}
+
+.skills h2{
+	padding: 15px 10px;
+	margin: 0  0 -20px -50px;
+	font-size: 40px;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: #2575c5;
+}
+
+.skills h2 img{
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.skills h3{
+	margin-bottom: 0;
+}
+
+.skill{
+	display: flex; 
+	justify-content: space-around;
+	flex-direction: column; 
+	flex-wrap: wrap;
+}
+
+.skill .move{
+	transition: .5s;
+}
+
+.skill .move:hover{
+	transform: translateX(45px);
+}
+
+.skill p{
+	font-style: italic;
+	font-size: 10px;
+	opacity: 0.8;
+}
+
+.skill li{
+	list-style: katakana;
+}
+
+
