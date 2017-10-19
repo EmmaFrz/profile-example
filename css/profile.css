@@ -3,7 +3,7 @@ body{
 	background: white;
 	display: flex;
 	flex-direction: column;
-  font-family: 'Lato', sans-serif;
+ 	font-family: 'Lato', sans-serif;
 }
 
 .contenedor{
